@@ -18,11 +18,11 @@ public class Worker {
     }
 //    public static void info(Worker worker){
 //
-//       System.out.printf("Сотрудник имя : %s, должность: %s,мэйл : %s, телефон : %s, зарплата : %s, возраст : %s\n",worker.name,worker.position,worker.eMail,worker.number,worker.salary,worker.age);
+//       System.out.printf("Сотрудник имя : %s, должность : %s,мэйл : %s, телефон : %s, зарплата : %s, возраст : %s\n",worker.name,worker.position,worker.eMail,worker.number,worker.salary,worker.age);
 //    }
 
     public void info(){
-        System.out.println("Имя"+ name + " должность"+ position + "почта"+ eMail +"телефон"+number + "ЗП"+ salary + "возраст" + age);
+        System.out.println("Имя:" +" " + name + " должность:" + " " + position + " почта:" + " " + eMail + " телефон:" + " " + number + " ЗП:" + " " + salary + " возраст:" + " " + age);
     }
 
 
